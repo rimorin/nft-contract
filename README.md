@@ -1,6 +1,12 @@
 # NFT Smart Contract
 
-## Setup Instructions
+## Prerequisite
+
+- Platform that allows you to easily access the blockchain such as Alchemy.
+- Ethereum Wallet Account such as Metamask
+- Some ETH in your account. Can get Fake ones for testing purpose.
+
+### Setup Instructions
 
 1. npm init -y
 2. npm install --save-dev hardhat
