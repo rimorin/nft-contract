@@ -6,7 +6,7 @@
 - Ethereum Wallet Account such as Metamask
 - Some ETH in your account. Can get Fake ones for testing purpose.
 
-### Setup Instructions
+### Contract Setup Instructions
 
 1. npm init -y
 2. npm install --save-dev hardhat
@@ -16,5 +16,13 @@
 6. npm install --save-dev @nomiclabs/hardhat-ethers ethers@^5.0.0
 7. npx hardhat compile
 8. npx hardhat --network rinkeby run scripts/deploy.js (Make sure there is enough ETH in your wallet for gas fees)
+
+### Minting Instructions
+
+1. npm install @alch/alchemy-web3
+2. Configure IPFS for NFT metadata (Using Pinata for testing purposes)
+3. Get IPFS metadata url
+4. Use metadata when calling mint()
+
 
 
